@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/bg.png');
+
+  background-size: cover;
+  width: 100%;
+}
+
+.header-img {
+  height: auto;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 50px auto;
+  display: block;
+}
+.container {
+  background-color: white;
+  display: flex;
+  width: 350px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.team-name {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+@font-face {
+  font-family: CursedTimerULiL;
+  src: url('font/CursedTimerULiL.ttf');
+}
+
+.team-points {
+  font-family: 'CursedTimerULiL', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  margin: 0;
+  background: #080001;
+  color: #f94f6d;
+  margin: 20px 0;
+  width: 133px;
+}
+
+.btn {
+  font-family: 'CursedTimerULiL', sans-serif;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 5px;
+  cursor: pointer;
+}
